@@ -19,7 +19,7 @@
         </div>
         <div id="form-group">
             <label id="email-label" for="email">Email</label>
-            <input type="text" id="email" placeholder="Jimmy@example.com">
+            <input type="email" id="email" placeholder="Jimmy@example.com"required>
         </div>
         <div id="form-group">
             <label id="number-label" for="age">Age</label>
@@ -29,56 +29,56 @@
             <p>Favourite Beatles member?</p>
             <div class="option__list">
                 <label for="" class="option__list--item">
-                    <input  type="radio" name="radio" >John
+                    <input value="radio" type="radio" name="radio" >John
                 </label>
                 <label for="" class="option__list--item">
-                    <input  type="radio" name="radio" >Paul
+                    <input value="radio" type="radio" name="radio" >Paul
                 </label>
                 <label for="" class="option__list--item">
-                    <input  type="radio" name="radio">George
+                    <input value="radio" type="radio" name="radio">George
                 </label>
                 <label for="" class="option__list--item">
-                    <input  type="radio" name="radio">Ringo
+                    <input value="radio" type="radio" name="radio">Ringo
                 </label>
             </div>
         </div>
         <div id="form-group">
             <p>Favourite Beatles album?</p>
             <select name="dropdown" id="dropdown">
-                <option value="" disabled selected>Choose an album!</option>
-                <option value="">Please Please Me</option>
-                <option value="">With The Beatles</option>
-                <option value="">A Hard Day's Night</option>
-                <option value="">Beatles for sale</option>
-                <option value="">Help!</option>
-                <option value="">Rubber Soul</option>
-                <option value="">Revolver</option>
-                <option value="">Sgt. Pepper's Lonely Hearts Club Band</option>
-                <option value="">The White Album</option>
-                <option value="">Abbey Road</option>
-                <option value="">Let it Be</option>
+                <option value="dropdown" disabled selected>Choose an album!</option>
+                <option value="dropdown">Please Please Me</option>
+                <option value="dropdown">With The Beatles</option>
+                <option value="dropdown">A Hard Day's Night</option>
+                <option value="dropdown">Beatles for sale</option>
+                <option value="dropdown">Help!</option>
+                <option value="dropdown">Rubber Soul</option>
+                <option value="dropdown">Revolver</option>
+                <option value="dropdown">Sgt. Pepper's Lonely Hearts Club Band</option>
+                <option value="dropdown">The White Album</option>
+                <option value="dropdown">Abbey Road</option>
+                <option value="dropdown">Let it Be</option>
             </select>
         </div>
         <div id="form-group">
             <p>Favourite Beatles songs?</p>
             <div class="option__list">
                 <label for="" class="option__list--item">
-                    <input  type="checkbox">Yesterday
+                    <input  value="checkbox" type="checkbox">Yesterday
                 </label>
                 <label for="" class="option__list--item">
-                    <input  type="checkbox">Here comes the sun
+                    <input  value="checkbox" type="checkbox">Here comes the sun
                 </label>
                 <label for="" class="option__list--item">
-                    <input  type="checkbox">Can't buy me love
+                    <input  value="checkbox" type="checkbox">Can't buy me love
                 </label>
                 <label for="" class="option__list--item">
-                    <input  type="checkbox">The continuing adventures of Bungalow Bill
+                    <input  value="checkbox" type="checkbox">The continuing adventures of Bungalow Bill
                 </label>
                 <label for="" class="option__list--item">
-                    <input  type="checkbox">Penny Lane
+                    <input  value="checkbox" type="checkbox">Penny Lane
                 </label>
                 <label for="" class="option__list--item">
-                    <input  type="checkbox">Other
+                    <input  value="checkbox" type="checkbox">Other
                 </label>
             </div>
         </div>
@@ -88,7 +88,9 @@
                 <textarea name="" id="" cols="30" rows="10" placeholder="Yesterday, all my troubles seemed so far away..."></textarea>
             </label>
         </div>
-        <button id="submit">Submit</button>
+        <div class="button--wrapper">
+            <button id="submit">Submit</button>
+        </div>
     </form>
 </body>
 </html>
